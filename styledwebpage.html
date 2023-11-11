@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Hello, world!</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png">
+	<link rel="stylesheet" href="style.css"> <!--this is the link to the css stylesheet-->
+</head>
+<body>
+	<div id="navpane"> <!--the id tag is used so you can set style properties for this specific object in css-->
+		<div id="screensizespacer"></div> <!--this is an empty object with its width set using css to be 25% of the screen width, so that it pads out the navpane-->
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="otherwebpage">:3</a></li>
+		</ul>
+	</div>
+	<div id="contentpane">
+		<h1>Hello, world!</h1>
+		<p id="mobilenotification">Mobile view!</p> <!--using css, this line will only be visible when the screen width is < 800px -->
+		<img src="images/guy.jpg" width="100" alt="a little guy" title=":3">
+		<br>
+		<p>press ctrl+shift+i to bring up the inspector in your browser, go to the element picker, and hover over anything on the page to see its size, the direction that each object is ordered inside its parent object (column, row, etc), and the margins and padding around it.</p>
+		<p>you'll see that everything stretches to the minimum size it needs to be. to make something take up more space, you have to put things in it that will fill that space- try changing the background-color of navpane and contentpane in style.css, you'll see that the colour only changes as much as it needs to</p>
+		<p>a good resource for learning html is <a href="https://www.w3schools.com/html/html_intro.asp">here</a></p>
+		<p>and likewise it's also good for <a href="https://www.w3schools.com/css/css_intro.asp">css</a> and <a href="https://www.w3schools.com/js/js_intro.asp">javascript</a></p>
+	</div>
+</body>
+</html>
